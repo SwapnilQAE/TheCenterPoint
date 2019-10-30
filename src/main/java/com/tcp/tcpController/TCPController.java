@@ -35,7 +35,7 @@ public class TCPController {
 		shopMap.put("Lat", lat);
 		shopMap.put("lng", lng);
 		return shopMap;	
-	}
+	}     
 	
 	@RequestMapping(value = "/signIN", method = RequestMethod.POST)
 	public String getShopDetails(@RequestParam long shopID) {
